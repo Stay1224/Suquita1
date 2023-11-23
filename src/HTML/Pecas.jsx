@@ -4,7 +4,7 @@ import '../CSS/todas.css'
 import '../CSS/Pecas.css'
 import lcd from '../imgs/lcd.png'
 import ultra from '../imgs/ultrasonico.png'
-import bt from '../imgs/bt psb.png'
+import bt from '../imgs/btpsb.png'
 import arduino from '../imgs/arduino.png'
 import rele from '../imgs/rele.png'
 
