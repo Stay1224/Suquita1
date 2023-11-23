@@ -1,0 +1,72 @@
+@import url(../CSS/todas.css);
+
+.pec {
+    color: #FFF;
+}
+
+.up h1{
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .35vw;
+}
+
+.up hr {
+    border: 1px solid var(--Lilas);
+    width: 7.5vw;
+    height: .35vw;
+    background: var(--Lilas);
+    margin: .5vw 0vw 1.5vw 1vw;
+}
+
+.set1 {
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vw;
+}
+
+.pecimg1 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pectxt {
+    width: 50%;
+}
+
+.txt1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.txt1 hr {
+    border: 1px solid var(--Lilas);
+    width: 15.5vw;
+    height: .35vw;
+    background: var(--Lilas);
+    margin: 1.5vw 0vw 1.5vw 1vw;
+}
+
+.txt1 p{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.7vw;
+}
+
+.pectxt h2{
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: .35vw;
+    margin-bottom: 2vw;
+}
+
+.pectxt p {
+    text-align: justify;
+}

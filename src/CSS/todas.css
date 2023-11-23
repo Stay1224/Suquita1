@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --Cor-letras: #F6EEFD;
+    --Lilas: #8F5EB7;
+}
+
+* {
+    margin: 0;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient( 45deg, #242230, #252331);
+    font-family: 'Lexend Deca', sans-serif;
+}

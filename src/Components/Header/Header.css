@@ -1,0 +1,88 @@
+@import url(../../CSS/todas.css);
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    gap: 35vw;
+    margin-bottom: 2vw;  
+}
+/* Header.css */
+
+/* Estilos originais para telas maiores */
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    gap: 35vw;
+    margin-bottom: 2vw;  
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 1.3vw;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--Cor-letras); 
+}
+
+li a:hover {
+    color: var(--Lilas);
+    border-bottom: 2px solid var(--Lilas);
+}
+
+header img {
+    width: 9vw;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2vw;
+        gap: 1.5vw;
+        margin-bottom: 1.5vw;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+        font-size: 4vw;
+        padding: 0.5vw 1vw;
+    }
+
+    li a {
+        text-decoration: none;
+        text-transform: none;
+        color: var(--Cor-letras);
+    }
+
+    li a:hover {
+        color: var(--Lilas);
+        border-bottom: 0.3vw solid var(--Lilas);
+    }
+
+    header img {
+        width: 30vw;
+        margin-bottom: 1vw;
+    }
+}

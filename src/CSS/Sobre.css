@@ -1,0 +1,80 @@
+@import url(../CSS/todas.css);
+/* Sobre.css */
+
+/* Estilos originais para telas maiores */
+.sobren h1 {
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .30vw;
+}
+
+.sobren hr {
+    border: 1px solid var(--Lilas);
+    width: 19vw;
+    height: .35vw;
+    background: var(--Lilas);
+    margin: .4vw 0vw 4vw 1vw;
+}
+
+.sobren {
+    color: #FFF;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo h2 {
+    font-size: 1.5vw;
+    margin: 1vw 0vw 2.5vw 0vw;
+    display: flex;
+    justify-content: center;
+}
+
+.int img{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.int p {
+    text-align: justify;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .sobren h1 {
+        font-size: 6vw;
+        letter-spacing: .25vw;
+    }
+
+    .sobren hr {
+        width: 70vw;
+    }
+
+    .sobren {
+        color: #FFF;
+    }
+
+    .grupo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grupo h2 {
+        font-size: 4vw;
+        margin: 5vw 0vw;
+    }
+
+    .int img {
+        width: 70vw;
+    }
+
+    .int p {
+        font-size: 4vw;
+        text-align: justify;
+    }
+}

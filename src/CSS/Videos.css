@@ -1,0 +1,62 @@
+@import url(../CSS/todas.css);
+/* Videos.css */
+
+/* Estilos originais para telas maiores */
+.video {
+    color: #FFF;
+}
+
+.video h1 {
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .35vw;
+}
+
+.video hr {
+    border: 1px solid var(--Lilas);
+    width: 8.5vw;
+    height: .35vw;
+    background: var(--Lilas);
+    margin: .6vw 0vw 3.5vw 1vw;
+}
+
+.vrideo iframe {
+    width: 100%;
+    height: 30vw;
+    border-radius: 1vw;
+}
+
+.video a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0vw;
+    font-size: 1.5vw;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .video {
+        color: #FFF;
+    }
+
+    .video h1 {
+        font-size: 6vw;
+        letter-spacing: .25vw;
+    }
+
+    .video hr {
+        width: 30vw;
+    }
+
+    .vrideo iframe {
+        width: 90vw;
+        height: 50vw;
+    }
+
+    .video a {
+        font-size: 4vw;
+        margin: 5vw 0vw;
+    }
+}

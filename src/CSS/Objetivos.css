@@ -1,0 +1,75 @@
+@import url(../CSS/todas.css);
+/* Objetivos.css */
+
+/* Estilos originais para telas maiores */
+.tudoobj {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 5vw;
+    color: #fff;
+    margin-top: 4vw;
+}
+
+.tudoobj h1 {
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .35vw;
+}
+
+.tudoobj hr {
+    border: 1px solid var(--Lilas);
+    width: 14.5vw;
+    height: .35vw;
+    background: var(--Lilas);
+    margin: 1.5vw 0vw 1.5vw 1vw;
+}
+
+.imagemobj {
+    width: 28vw;
+    height: 28vw; 
+    box-shadow: -2vw -2vw var(--Lilas);
+    background-image: url(../imgs/pro.png);
+    background-size: 100%;
+}
+
+.textoobj {
+    width: 50%;
+    line-height: 2.1vw;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .tudoobj {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 5vw;
+        color: #fff;
+        margin-top: 4vw;
+    }
+
+    .tudoobj h1 {
+        font-size: 6vw;
+        letter-spacing: .25vw;
+    }
+
+    .tudoobj hr {
+        width: 30vw;
+    }
+
+    .imagemobj {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .textoobj {
+        width: 90vw;
+        line-height: 5vw;
+    }
+}
